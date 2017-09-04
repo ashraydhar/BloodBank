@@ -107,6 +107,10 @@
               font-family: "Roboto", sans-serif;
               -webkit-font-smoothing: antialiased;      
             }
+        .auto-style1 {
+            width: 300px;
+            height: 300px;
+        }
         </style>
         <script>
            $('.message a').click(function(){
@@ -114,8 +118,11 @@
             });
         </script>
 </head>
+ <body>
+     <p>
+         &nbsp;</p>
  <div class="login-page">
-        <h1>Sign Up</h1>
+        <h1>Sign Up<img alt="bloodbanklogo" class="auto-style1" src="Resources/bloodbanklogo.png" /></h1>
       <div class="form">
         <form class="login-form" runat="server">
           <input type="text" placeholder="First Name"/>
@@ -130,5 +137,6 @@
           <p class="message"><a href="signin.aspx">Already have an Account?</a></p>
         </form>
       </div>
-    </div>
+  </div>
+  </body>
 </html>

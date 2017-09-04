@@ -108,6 +108,10 @@
               -webkit-font-smoothing: antialiased;
                     
             }
+                .auto-style1 {
+                    width: 300px;
+                    height: 300px;
+                }
         </style>
         <script>
            $('.message a').click(function(){
@@ -117,7 +121,7 @@
 </head>
 <body>
    <div class="login-page">
-        <h1>Sign In</h1>
+       &nbsp;<h1>Sign In<img alt="bloodbanklogo" class="auto-style1" src="Resources/bloodbanklogo.png" /></h1>
       <div class="form">
         <form class="login-form" runat="server">
           <input type="text" placeholder="username"/>
